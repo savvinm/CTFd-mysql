@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("tolorid/test")
+       app = docker.build("tolorid/ctfd")
     }
 
     stage('Test image') {
